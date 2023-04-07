@@ -100,8 +100,30 @@ a {
   text-decoration: none;
 }
 
+
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.form input {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
 }

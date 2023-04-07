@@ -14,8 +14,8 @@ export default function ContactForm() {
             </Head>
             <main className={styles.main}>
                 <div className={styles.description}>
-                    <h1>Contact Us</h1>
-                    <p>Fill out the form below to get in touch.</p>
+                    <h1>Start Your Global Search Here</h1>
+                    <p>Fill out the form below to get started.</p>
                 </div>
 
                 <form>
